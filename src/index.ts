@@ -9,3 +9,5 @@ export * from './modules/agent.js';
 export * from './modules/season.js';
 export * from './modules/basin.js';
 export * from './modules/governance.js';
+export * from './modules/season-full.js';
+export * from './modules/trust.js';
