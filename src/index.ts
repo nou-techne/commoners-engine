@@ -11,3 +11,4 @@ export * from './modules/basin.js';
 export * from './modules/governance.js';
 export * from './modules/season-full.js';
 export * from './modules/trust.js';
+export * from './modules/chain.js';
