@@ -9,7 +9,8 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "h3-js": "^4.1.0"
+    "h3-js": "^4.1.0",
+    "viem": "^2.48.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.12",
@@ -25,7 +26,12 @@
       "^(\\.{1,2}/.*)\\.js$": "$1"
     },
     "transform": {
-      "^.+\\.tsx?$": ["ts-jest", { "useESM": true }]
+      "^.+\\.tsx?$": [
+        "ts-jest",
+        {
+          "useESM": true
+        }
+      ]
     }
   }
 }
